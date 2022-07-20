@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Elevator</title>
+</head>
+<body onload="load()">
+    <script src="code.js">
+        
+    </script>
+
+    <section>
+        <h1>Elevator in JavaScript</h1>
+    </section>
+
+    <br>
+
+    <div id="buttons">
+        <p>Call Buttons</p>
+        <input type="button" class="callButton" id="secondButton" value="2" onclick="call2()">
+        <input type="button" class="callButton" id="firstButton" value="1" onclick="call1()">
+        <input type="button" class="callButton" id="groundButton" value="G" onclick="callg()">
+    </div>
+
+    <div id="container">
+        <div id="elevator-container">
+            <div id="display"></div>
+                <p></p>
+            <div id="elevator">
+                <h1>[--]</h1>
+            </div>
+        </div>
+        <h4>&copy Igor Faustino - 2022</h4>
+    </div>
+</body>
+</html>
